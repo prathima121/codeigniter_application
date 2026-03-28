@@ -119,9 +119,4 @@ Headers:
 - Run `Auth - Login` or `Auth - Register` first to auto-save `token`
 - Then run protected requests (profile/create/list endpoints)
 
-## Git Repository Submission
-To publish:
-1. Initialize git in workspace root.
-2. Commit all files.
-3. Push to a public GitHub repository.
-4. Share the repository URL.
+
