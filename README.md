@@ -119,4 +119,25 @@ Headers:
 - Run `Auth - Login` or `Auth - Register` first to auto-save `token`
 - Then run protected requests (profile/create/list endpoints)
 
+## Git Repository Submission
+To publish:
+1. Initialize git in workspace root.
+2. Commit all files.
+3. Push to a public GitHub repository.
+4. Share the repository URL.
 
+## GitHub Pages (Frontend Live Link)
+
+This repository includes a GitHub Actions workflow to deploy the React app from `frontend/dist` to GitHub Pages.
+
+Expected live URL:
+- `https://prathima121.github.io/codeigniter_application/`
+
+Setup steps (one-time in GitHub):
+1. Open repository Settings -> Pages.
+2. Under Build and deployment, set Source to `GitHub Actions`.
+3. Push to `main` (or manually run the workflow `Deploy Frontend to GitHub Pages` in Actions tab).
+
+Important:
+- GitHub Pages only hosts the frontend static app.
+- Backend APIs from `localhost:8080` will not be reachable from the public Pages site unless you deploy backend separately and update `VITE_API_BASE_URL`.
