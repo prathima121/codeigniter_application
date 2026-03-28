@@ -131,7 +131,7 @@ To publish:
 This repository includes a GitHub Actions workflow to deploy the React app from `frontend/dist` to GitHub Pages.
 
 Expected live URL:
-- `https://prathima121.github.io/codeigniter_application/`
+https://prathima121.github.io/codeigniter_application/
 
 Setup steps (one-time in GitHub):
 1. Open repository Settings -> Pages.
